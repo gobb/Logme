@@ -45,7 +45,8 @@ makes creating your own custom handlers a triviality.
 ```php
 <?php
 use Logme\Logger,
-    Logme\Handlers\ConsoleHandler;
+    Logme\Handlers\ConsoleHandler,
+    Logme\Handlers\FileHandler;
 
 // Require the Logme bootstrap file
 require '/hard/path/to/Logme.php';
